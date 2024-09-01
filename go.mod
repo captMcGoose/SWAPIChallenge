@@ -1,4 +1,4 @@
-module github.com/captMcGoose/mercedesChallenge
+module github.com/captMcGoose/SWAPIChallenge
 
 go 1.20
 

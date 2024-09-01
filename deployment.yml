@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mercedeschallenge-deployment
+  name: swapichallenge-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: mercedeschallenge
+      app: swapichallenge
   template:
     metadata:
       labels:
-        app: mercedeschallenge
+        app: swapichallenge
     spec:
       containers:
-      - name: mercedeschallenge
-        image: mercedeschallenge
+      - name: swapichallenge
+        image: swapichallenge
         ports:
         - containerPort: 8080

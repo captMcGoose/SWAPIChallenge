@@ -1,4 +1,4 @@
-# mercedesChallenge
+# SWAPI Challenge
 
 ## Overview
 
@@ -32,8 +32,8 @@ As requested, the service is containerized using Docker, orchestrated with docke
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/captMcGoose/mercedesChallenge.git
-   cd mercedesChallenge
+   git clone https://github.com/captMcGoose/SWAPIChallenge.git
+   cd SWAPIChallenge
    ```
 
 2. **Run the application**:
@@ -49,12 +49,12 @@ http://localhost:8080/people
 
 1. **Build the Docker image**:
    ```bash
-    docker build -t mercedeschallenge .
+    docker build -t swapichallenge .
    ```
 
 2. **Run the Docker container**:
    ```bash
-    docker run -p 8080:8080 mercedeschallenge
+    docker run -p 8080:8080 swapichallenge
    ```
 
 3. **Access the API**:
@@ -86,7 +86,7 @@ http://localhost:8080/people
    ```
 3. **Access the service**:
    ```bash
-    minikube service mercedeschallenge-service
+    minikube service swapichallenge-service
    ```
 
 ### Horizontal Pod Autoscaler

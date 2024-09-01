@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  mercedeschallenge:
-    image: mercedeschallenge
+  swapichallenge:
+    image: swapichallenge
     build: .
     ports:
       - "8080:8080"
