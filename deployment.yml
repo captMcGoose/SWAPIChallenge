@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mercedeschallenge-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mercedeschallenge
+  template:
+    metadata:
+      labels:
+        app: mercedeschallenge
+    spec:
+      containers:
+      - name: mercedeschallenge
+        image: mercedeschallenge
+        ports:
+        - containerPort: 8080
